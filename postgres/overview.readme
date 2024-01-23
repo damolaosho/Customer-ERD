@@ -1,4 +1,0 @@
-Database Schema
-The database employs a well-structured schema with interconnected tables, fostering relationships between entities. 
-From one-to-many relationships, such as customers placing multiple orders, to many-to-one relationships, like associating images with specific products.
-The schema is designed to reflect the complex interactions within your online store ecosystem.
