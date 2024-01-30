@@ -5,16 +5,15 @@ CREATE TABLE Categories (
 );
 
 INSERT INTO Categories (CategoryID, CategoryName) VALUES
-(1, "Beverages"),
-(2, "Dairy"),
-(3, "Frozen Foods"),
-(4, "Bakery"),
-(5, "deli"),
-(6, "meat"),
-(7, "seafood"),
-(8, "snack"),
-(9, "condiments"),
-(10, "canned food"),
+(1, "Blazers"),
+(2, "Female_Underwear"),
+(3, "Female_Jumpsuits"),
+(4, "Trousers"),
+(5, "flipflops"),
+(6, "Male underwear"),
+(8, "Tshirts"),
+(9, "Cap"),
+(10, "Boots"),
 
 
 -- Create Products table
@@ -28,18 +27,18 @@ CREATE TABLE Products (
 );
 
 INSERT INTO Products (ProductID, Name, Description, Price, StockQuantity, CategoryID) VALUES
-(1, "CocaCola", "A coke based drink", 300, 5000, 1),
-(2, "Peak milk", "Peak Milk sachet", 120, 10000, 2),
-(3, "Chicken", "Laps of frozen chicken", 2600, 15000, 3),
-(4, "yale bread", "a bread by yale", 500, 3000, 4),
-(5, "digestive", "a digestive busicuit", 400, 5000, 5),
-(6, "cow", "a cow meat", 4000, 200, 6),
-(7, "prawn", "a seafood", 4000, 300, 7),
-(8, "Trombone", "Chocolate", 5000, 5000, 8),
-(9, "curry", "for club and country", 4000, 2000, 9),
-(10, "geisha", "sardines", 900, 400, 10),
-(11, "ginger bread", "a ginger with bread", 300, 5000, 4),
-(12, "Titus", "sardine", 120, 10000, 10),
+(1, "blue Blazer", "nice light blue blazer", 300, 5000, 1),
+(2, "bra", "brazzier", 120, 10000, 2),
+(3, "jumpsuit", "blue jumpsuit", 2600, 15000, 3),
+(4, "Trousers", "trousers by yale", 500, 3000, 4),
+(5, "flips", "a flips flop", 400, 5000, 5),
+(6, "denim_jacket", "a denim_jacket", 4000, 200, 6),
+(7, "boxers", "an underwear", 4000, 300, 7),
+(8, "Tshirt", "Tshirt", 5000, 5000, 8),
+(9, "cap", "for club and country", 4000, 2000, 9),
+(10, "boots", "boots", 900, 400, 10),
+(11, "cardigan", "a cardigan", 300, 5000, 4),
+(12, "Tshirt", "Yellow themed Tshirt", 120, 10000, 10),
 
 
 
@@ -51,18 +50,18 @@ CREATE TABLE Images (
 );
 
 INSERT INTO Images (ProductID, ImageURL) VALUES
-(1, "\product_images\cocacola.jpg"),
-(6, "\product_images\cow meat.jpg"),
-(9, "\product_images\curry.jpg"),
-(5, "\product_images\digestive.jpg"),
-(3, "\product_images\frozen chicken.jpg"),
-(10, "\product_images\geishasardine.jpg"),
-(11, "\product_images\gingerbread.jpg"),
-(2, "\product_images\peak milk.jpg"),
-(7, "\product_images\prawn.jpg"),
-(8, "\product_images\R.png"),
-(12, "\product_images\titus.jpg"),
-(4, "\product_images\yale bread.jpg");
+(1, "\product_images\blue_blazer.jpg"),
+(6, "\product_images\denim_jacket.jpg"),
+(9, "\product_images\cap.jpg"),
+(5, "\product_images\flips.jpg"),
+(3, "\product_images\jumpsuit.jpg"),
+(10, "\product_images\boots.jpg"),
+(11, "\product_images\cardigan.jpg"),
+(2, "\product_images\bra.jpg"),
+(7, "\product_images\boxers.jpg"),
+(8, "\product_images\R.jpg"),
+(12, "\product_images\Tshirt.jpg"),
+(4, "\product_images\Trousers.jpg");
 
 
 
