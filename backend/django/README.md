@@ -7,7 +7,7 @@ Install my-project with pip
   cd code
   python3 -m venv env 
   on mac
-  source my_env/bin/activate
+  source env/bin/activate
   pip install -r requirements.txt
   python3 manage.py migrate
   python3 manage.py collectstatic
