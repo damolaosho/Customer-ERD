@@ -129,7 +129,7 @@ class CartSerializer(serializers.ModelSerializer):
 
 
 class OrderItemSerializer(serializers.ModelSerializer):
-    Product = SimpleProductSerializer()
+    product = SimpleProductSerializer()
     class Meta:
         model = OrderDetails
         fields = ['id','product','quantity','sub_total']
